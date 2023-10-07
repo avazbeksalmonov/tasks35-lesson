@@ -24,3 +24,4 @@ prevBtn.addEventListener("click", () => {
 
   slider();
 });
+///finish
