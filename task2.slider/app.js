@@ -5,7 +5,7 @@ const img = document.querySelectorAll("img");
 
 let index = 0;
 
-function changeImgae() {
+function slider() {
   if (index > img.length - 3) {
     index = 0;
   } else if (index < 0) {
@@ -16,11 +16,11 @@ function changeImgae() {
 nextBtn.addEventListener("click", () => {
   index++;
 
-  changeImgae();
+  slider();
   console.log(index);
 });
 prevBtn.addEventListener("click", () => {
   index--;
 
-  changeImgae();
+  slider();
 });
